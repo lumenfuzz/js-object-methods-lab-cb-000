@@ -6,5 +6,5 @@ class President {
     this.yearsInOffice = yearsInOffice;
     this.homeState = homeState
   }
-  this.veto = function() { return "NO!" }  
+  this.veto = function() { return "NO!" }
 }
