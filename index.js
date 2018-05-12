@@ -9,6 +9,6 @@ class President {
     this.passBill = function() {return "You can do that!" }
     this.doCharity = function() { return "I like to help people."}
     this.conductPressInterview = function() {  return "I am proud to be an American."}
-    this.sayHi = function() { return "Hi, my name is Lyndon B Johnson. I am from Texas. I represent the Democrats, and was in office 1963-1969." }
+    this.sayHi = function() { return `Hi, my name is ${this.name}. I am from ${this.homeState}. I represent the ${this.politicalParty}s, and was in office ${this.yearsInOffice}.` }
   }
 }
